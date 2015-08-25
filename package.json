@@ -1,6 +1,6 @@
 {
   "name": "virtual-patch",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Patch files on any file system",
   "main": "index.js",
   "scripts": {
