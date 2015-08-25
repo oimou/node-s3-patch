@@ -1,0 +1,22 @@
+{
+  "name": "virtual-patch",
+  "version": "1.0.0",
+  "description": "Patch files on any file system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oimou/virtual-patch.git"
+  },
+  "author": "oimou <s1190013@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oimou/virtual-patch/issues"
+  },
+  "homepage": "https://github.com/oimou/virtual-patch",
+  "dependencies": {
+    "parse-diff": "^0.2.0"
+  }
+}
