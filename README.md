@@ -5,13 +5,13 @@ by providing abstract CRUD APIs. This is designed especially for Amazon S3.
 
 ## How to install
 
-```
+```sh
 $ npm install virtual-patch
 ```
 
 ## How to use
 
-```
+```js
 var patcher = require("virtual-patch");
 var diff = "diff string here";
 
