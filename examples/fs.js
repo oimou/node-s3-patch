@@ -1,10 +1,10 @@
 "use strict";
 
-var parser = require("./lib/parser");
+var patcher = require("../");
 var fs = require('fs');
 var diff = fs.readFileSync("./diff.txt").toString();
 
-parser.parse(
+patcher.patch(
     diff,
     function readFile(filename, callback) {
         fs.readFile("./target/" + filename, function (err, data) {
