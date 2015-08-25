@@ -20,5 +20,8 @@ patcher.patch(
         fs.unlink("./fixtures/" + filename, function (err) {
             callback(err);
         });
+    },
+    function finish() {
+        console.log("FINISHED");
     }
 );
