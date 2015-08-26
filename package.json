@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/oimou/virtual-patch",
   "dependencies": {
-    "parse-diff": "^0.2.0"
+    "parse-diff": "git://github.com/oimou/parse-diff"
   },
   "devDependencies": {
     "chai": "^3.2.0",
